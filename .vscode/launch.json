@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-CountryServiceApplication<country_service>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "com.country_service.CountryServiceApplication",
+            "projectName": "country_service",
+            "args": ""
+        }
+    ]
+}
