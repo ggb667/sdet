@@ -4,10 +4,8 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.ComponentScan;
 
-//@ComponentScan({"com.client"})
-//@ComponentScan(value = "com.client")
-@SpringBootApplication
 @ComponentScan({"com.client"})
+@SpringBootApplication
 public class CountryServiceApplication {
 
 	public static void main(String[] args) {
