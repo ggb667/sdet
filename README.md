@@ -6,7 +6,6 @@ To run the code navigate to the country_service directory and run the maven comm
 To run the tests run:
 mvn test
 
-
 Notes on the implementatiuon:
 
 There is a life cycle hiccup in the ClientTest that runs fine from the command line but that hits an initializzzation error in the IDE (spurious?).  Possibly related to skipping autowiring in
